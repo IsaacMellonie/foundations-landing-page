@@ -1,5 +1,5 @@
 .header {
-    background: #0f408a;
+    background: #022355;
     margin: 0;
     padding: 0 20px;
     color: white;
@@ -26,7 +26,7 @@ a {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1a4b96;
+    background-color: #0a3d88;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -61,7 +61,7 @@ p {
 
 .website {
     font-size: 60px;
-    color: rgb(245, 147, 0);
+    color: rgb(255, 255, 255);
     font-weight: 900;
     margin: 0;
     line-height: 1;
@@ -87,7 +87,7 @@ p {
 
 .signup,
 .button-two {
-    background-color: #5096ff;
+    background-color: #3385ff;
     border: none;
     align-items: center;
     width: 120px;
@@ -179,15 +179,27 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    padding: 70px;
-    gap: 70px;
-    background-color: #5096ff;
+    background-color: white;
+    padding: 100px 0;
+}
 
+.blue-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3385ff;
+    color: white;
+    width: 800px;
+    height: 100px;
+    border-radius: 6px;
+    gap: 100px;
 }
 
 .button-two {
-    padding: 2px;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    padding: 16px;
     border: 2px solid #ffffff;
 }
 
@@ -199,4 +211,14 @@ p {
 .click-text {
     font-size: 14px;
     font-weight: 200;
+}
+
+.field-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #022355;
+    color: white;
+    padding: 30px 0px;
+
 }
